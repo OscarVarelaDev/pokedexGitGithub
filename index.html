@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="icono-menu">
+            <img src="./src/img/pokeball.png" id="icono-menu">
+            <h3 style="margin-top:1% ;">Menú</h>
+        </div>
+
+        <div class="cont-menu active" id="menu">
+            <ul>
+                <h2 style="color:yellow ;">Menú</h2>
+                <li> <a href="index.html"></a> Buscar Pokémon </li>
+                <li> Pokédex... coming </li>
+                <li> Pokébolas ...coming </li>
+                <li> Entrenadores ...coming </li>
+
+            </ul>
+        </div>
+        <div id="container">
+            <img src="./src/img/pokemonlogo.png" alt="">
+            <h2>Busca tu pokémon</h1>
+
+                <h3>Ingresa el número o nombre </h3>
+                <div id="busquedaPokemon">
+                    <input type="text" style="text-align: center;" placeholder="Atrapalos Ya!" id="getPokemon">
+                    <div id="botones">
+                        <button id="buscar">Buscar</button>
+                        <button id="restablecer">Restablecer</button>
+                    </div>
+                    <div data-poke-img-container class="img-pokemon">
+                        <img data-poke-img id="poke-img" src="./src/img/poke-shadow.png" />
+                    </div>
+                    <Div id="text-Pokemon">
+                        <h2 style="color:black ;" id="mostrarPokemon"></h2>
+                        <h3 id="tipo"></h3>
+                        <h3 id="datosPokemon"></h3>
+                        <h3 id="peso"></h3>
+                        <h3 id="stat"></h3>
+
+                        <div id="imgPokemon">
+                        </div>
+                    </div>
+                    <script src="main.js"></script>
+    </body>
+
+</html>

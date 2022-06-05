@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+nav {
+  position: fixed;
+  float: inline-end;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.icono-menu {
+  margin: 40px 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.icono-menu img {
+  vertical-align: top;
+  width: 40px;
+  cursor: pointer;
+}
+
+.cont-menu {
+  background-color: rgb(42, 42, 42);
+  box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+}
+
+.active {
+  transform: translate(-600px);
+}
+
+.cont-menu ul {
+  padding: 100px 0px 20px 0px;
+  list-style: none;
+}
+
+.cont-menu ul li {
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.cont-menu ul li:hover {
+  background-color: rgb(228, 228, 228);
+  color: rgb(42, 42, 42);
+}
+
+#container img {
+  height: 90%;
+  width: 25%;
+}
+#buscardorPokemon {
+  width: 200px;
+  height: 25px;
+}
+#container {
+  text-align: center;
+}
+#container h2 {
+  padding-bottom: 20px;
+  height: 90%;
+}
+#busquedaPokemon {
+  margin-top: 30px;
+  height: 75%;
+
+  width: 75%;
+  color: #76b5c5;
+  display: inline-block;
+}
+
+input {
+  width: 230px;
+  height: 25px;
+}
+
+button {
+  margin-top: 5px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
